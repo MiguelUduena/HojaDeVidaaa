@@ -1,31 +1,48 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="decription" content="PRACTICANDO ETIQUETAS"/>
-    <meta name="author" content="MIGUEL ANGEL UDUEÑA YUNDA"/>
-    <meta name="keywords" content="Hoja de vida"/>
-    <title>Hoja de Vida</title>
+    <title>Hoja de vida</title>
 </head>
 <body>
-    <div>
-        <style>
-            body {
-                color:black;
-                background-color: gray;
-            }
-        </style>
-<img src="descargar.jfif" alt="" id="Foto"> <br>
-<br><h1 width="500" height="600">Miguel Angel Udueña Yunda</h1>
-<p>Telefono: 9999999</p>
-<p>Direccion: 1111111</p>
-<p>Correo: aaaaaa@aaaa.com</p>
-<br>
-<br>
-<br>
-<fieldset>
+    <style>
+     #arriba{
+         width: 60%;
+         margin: auto;
+         border:solid 1px black
+     }
+    </style>
+    <style>
+        fieldset{
+            margin-bottom: 10px;
+        }
+        legend{
+            border: solid 1px;
+            padding: 5px;
+            font-weight: bold;
+            border-radius: 20px;
+            background-color: rgb(236, 129, 52);
+        }
+        #foto{
+            margin: 5px;
+            border: solid 4px black
+
+        }
+        body{
+            background: url(fondo.jfif)
+            
+        }
+    </style>
+    
+    <div id="arriba">
+        <br>
+        <img src="descargar.jfif" alt="" id="foto" width="200" >
+        <center><h2>Miguel Angel Udueña Yunda</h2></center>
+        <br>
+<div id="centro">
+    <fieldset>
     <legend>Datos Personales</legend>
     <ul>
         <li><b>Nacionalidad: &nbsp;</b> Colombiano</li>
@@ -66,3 +83,4 @@
 </fieldset>
     </div>
 </body>
+</html>

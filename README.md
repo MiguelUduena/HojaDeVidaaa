@@ -1,4 +1,5 @@
 
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -11,8 +12,14 @@
 </head>
 <body>
     <div>
-<img src="descargar.jfif" alt="" id="Foto">
-<h2>Miguel Angel Udueña Yunda</h2>
+        <style>
+            body {
+                color:black;
+                background-color: gray;
+            }
+        </style>
+<img src="descargar.jfif" alt="" id="Foto"> <br>
+<br><h1>Miguel Angel Udueña Yunda</h1>
 <p>Telefono: 9999999</p>
 <p>Direccion: 1111111</p>
 <p>Correo: aaaaaa@aaaa.com</p>
